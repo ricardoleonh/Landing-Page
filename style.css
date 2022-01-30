@@ -2,53 +2,63 @@
     margin: 0;
     padding: 0;
 }
-body, html {
+body {
     min-width: 100%;
     min-height: 100vh;
     font-family: Hellix;
-    text-align: center;
-    align-items: center;
-    background-color: #E5E5E5;
 }
 
-.big_ctr {
-    margin: 30px auto;
-    max-width: 450px;
-    max-height: 1150px;
-    min-width: 450px;
-    min-height: 1150px;
-    background-color: #ffff;
-}
-
-.label {
-    font-family: Hellix;
-    text-align: center;
-    box-shadow: 5px 10px 18px #E5E5E5;;
-
-}
-h3{
+h1, h2 {
     font-weight: 500;
-    text-align: center;
-    font-size: 36px;
-    padding: 10px 30px;
-}
-span{
-    font-weight: bold;
 }
 
-.wot_img {
-    position: relative;
-    height: 414px;
-    width: 414px;
-}
-
-.title {
-    width: auto;
-    height: 225px;
-    margin-top: 30px;
-    padding: 0px 15px; 
+h1 {
+    margin: 20px 0;
     font-size: 64px;
-    font-weight: 700;
-    text-align: center;
     line-height: 75px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    line-height: 24px;
+}
+.header_bold {
+    font-weight: 700;
+}
+
+.top_bar {
+    height: 75px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_sec_ctr {
+    margin: 40px 15px;
+}
+
+.text_centered {
+    text-align: center;
+}
+
+.content_sec_ctr img {
+    width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+
+.btn-primary {
+    background-color: #4b5092;
+    color: white;
 }
