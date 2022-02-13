@@ -6,6 +6,7 @@ body {
   min-width: 100%;
   min-height: 100vh;
   font-family: Adihaus;
+  background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
 }
 
 h1, h2, h3, h6 {
@@ -48,6 +49,30 @@ p {
   font-size: 16px;
   font-weight: 400;
 }
+
+ul {
+  padding-left: 0;
+  padding: 30px 0;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+input[type="text"] {
+  width: 55%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 400;
+  background:url("https://assets.codepen.io/6060109/icon-send.png") white 95% 50% no-repeat;
+}
+
+input::placeholder {
+  color: #111235;
+}
+
 .header-bold {
   font-weight: 700;
 }
@@ -120,6 +145,27 @@ p {
   background: rgba(114, 122, 239, 0.1);
 }
 
+.footer-icons {
+  margin: 25px auto;
+  width: 40%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.icon-circle {
+  background-color: rgba(128, 173, 245, .2);
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-circle > img {
+  width: 55%;
+}
+
 /* Modifier classes -- single style */
 
 .bp-100 {
@@ -133,3 +179,11 @@ p {
 .bm-40 {
   margin-bottom: 40px;
 }
+
+.bm-15 {
+  margin-bottom: 15px;
+}
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
